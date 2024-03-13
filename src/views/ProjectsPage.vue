@@ -29,7 +29,7 @@
     <h1 class="my-8 text-center font-bold text-5xl">Proyectos</h1>
     <div class="flex justify-center">
         <div class="gap-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-            <ProjectCard v-for="project in projects" :key="project.id" :projectCard="project" />
+            <ProjectCard v-for="project in projects" :key="project.id" :projectCard="project" class="last-of-type:mb-16"/>
         </div>
     </div>
 </template>
