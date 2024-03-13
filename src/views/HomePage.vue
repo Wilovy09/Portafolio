@@ -10,7 +10,7 @@
         <h1 class="text-4xl font-bold">👋¡HOLA!</h1>
         <h3 class="text-3xl mt-2 font-semibold">Soy <span class="efecto">Emiliano Maldonado G.</span></h3>
         
-        <div class="flex justify-center">
+        <div class="flex justify-center mb-16">
             <p class="text-xl max-w-[60ch]">Un desarrollador autodidacta y 
                 mi pasión es el desarrollo FullStack.
                 A lo largo de mi carrera, quiero crear soluciones innovadoras 
