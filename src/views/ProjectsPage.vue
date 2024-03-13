@@ -4,7 +4,7 @@
     const projects = [
         {
             id: 1,
-            //img: '',
+            img: '/images/projects/productsApiIMG.webp',
             alt: 'Products API',
             title: 'Products API',
             tecnologias: ['FastAPI', 'Python', 'Vercel'],
@@ -14,9 +14,9 @@
         },
         {
             id: 2,
-            //img: '',
+            img: '/images/projects/myLinkHubIMG.webp',
             alt: 'MyLinkHubAstro',
-            title: 'My linkHub Astro',
+            title: 'My linkHub',
             tecnologias: ['Astro', 'Tailwind'],
             desc: 'Todos tus links en una página',
             github: 'https://github.com/Wilovy09/Mi-LinkHub-ASTRO',
