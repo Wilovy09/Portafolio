@@ -7,10 +7,10 @@
             img: '/images/projects/productsApiIMG.webp',
             alt: 'Products API',
             title: 'Products API',
-            tecnologias: ['FastAPI', 'Python', 'Vercel'],
+            tecnologias: ['FastAPI', 'Python', 'Render'],
             desc: 'API para productos',
             github: 'https://github.com/Wilovy09/Products-API-FastAPI',
-            demo: 'https://products-api-mu.vercel.app/'
+            demo: 'https://products-api-fastapi.onrender.com/'
         },
         {
             id: 2,
