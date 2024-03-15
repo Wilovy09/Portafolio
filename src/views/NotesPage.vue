@@ -1,8 +1,14 @@
 <script setup lang='ts'>
+    import { RouterView } from 'vue-router';
+    import NotesNavbar from '@/components/notes/NotesNavbar.vue';
 </script>
 
 <template>
-    <h1 class="text-center">Notas</h1>
+    <main>
+        <NotesNavbar />
+        <RouterView />
+    </main>
+
 </template>
 
 <style scoped>

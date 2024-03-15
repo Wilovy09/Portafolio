@@ -36,6 +36,13 @@ const router = createRouter({
       path: '/notes',
       name: 'notas',
       component: ()=> import('@/views/NotesPage.vue'),
+      children: [
+        {
+          path: "dockerdesde0",
+          name: "dockerdesde0",
+          component: ()=> import('@/views/notes/DockerDesde0.vue')
+        }
+      ]
     },
     {
       path: '/:pathMatch(.*)*',
