@@ -168,11 +168,12 @@
 
 <template>
 	<section class="p-4">
-		<RouterLink to="/notes" class="bg-[#161616] text-center p-1 rounded-xl"
-			>Regresar</RouterLink
-		>
+		<RouterLink to="/notes" class="bg-[#161616] text-center p-1 rounded-xl">
+			Regresar
+		</RouterLink>
 
 		<h1 class="text-center text-2xl font-bold">Docker desde 0 nota</h1>
+		
 		<section class="mx-2 lg:mx-8">
 			<p class="mt-4">
 				Seguramente has vivido que cuando tienes un proyecto que
@@ -890,6 +891,7 @@ docker build TU_USUARIO/NOMBRE .</code></pre>
 				</p>
 			</section>
 		</section>
+		
 	</section>
 </template>
 <!-- 
