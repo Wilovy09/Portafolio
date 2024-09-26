@@ -1,0 +1,42 @@
+---
+import DownloadIcon from "../icons/download.astro"
+import GithubIcon from "../icons/github.astro"
+---
+
+<section
+  id="index"
+  class="grid place-items-center min-h-max mx-5 text-pretty text-center
+  lg:flex lg:justify-center lg:items-center lg:my-16 
+  "
+>
+  <img
+    src="/img.jpg"
+    alt="wilovy image"
+    class="mt-8 w-56 h-56 object-cover rounded-full
+    lg:mt-0 lg:h-[450px] lg:w-[300px] lg:rounded-md
+    "
+  />
+  <div class="lg:ml-8">
+    <div class="mt-4">
+      <h1 class="text-xl font-semibold">Hi, I'm Emiliano Maldonado G.</h1>
+      <h2 class="text-emerald-500">FullStack Developer</h2>
+    </div>
+    <div class="mt-2 grid place-items-center">
+      <p class="max-w-[440px]">
+        Experience in creating and maintaining web applications. Specializing in
+        technologies such as Node.js, Rust, Go, JavaScript (Vue, React) and
+        TypeScript.
+      </p>
+      <div class="flex justify-center gap-3 mt-3">
+        <a class="flex items-center rounded-md p-2 cursor-pointer" href="/EMILIANO_MALDONADO_GARZA_EN_CV.pdf" target="_blank">
+          <DownloadIcon class="w-8"/>
+          <span class="ml-1 text-xl">CV</span>
+        </a>
+        <a class="flex items-center rounded-md p-2 cursor-pointer" href="https://github.com/Wilovy09/" target="_blank">
+          <GithubIcon class="w-8 text-white"/>
+          <span class="ml-1 text-xl">GitHub</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
