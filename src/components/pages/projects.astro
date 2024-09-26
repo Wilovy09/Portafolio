@@ -1,0 +1,50 @@
+---
+import Card from "../card.astro";
+const projects = [
+  {
+    img: "/img/adn.webp",
+    title: "ADN",
+    dec: "A easy way to install LSP to Helix editor.",
+    tecnos: ["Rust"],
+    link: "https://github.com/Wilovy09/ADN",
+  },
+  {
+    img: "/img/gols.webp",
+    title: "GoLS",
+    dec: "Another LS or DIR command but in golang.",
+    tecnos: ["Go"],
+    link: "https://github.com/Wilovy09/GoLS",
+  },
+  {
+    img: "/img/electroshop.webp",
+    title: "ElectroShop",
+    dec: "A ecommerce without a payment gateway.",
+    tecnos: ["Rust", "React", "TypeScript"],
+    link: "https://github.com/Wilovy09/ElectroShop/tree/develop",
+  },
+];
+---
+
+<section id="projects">
+  <div class="my-4">
+    <div class="flex items-center">
+      <h1 class="text-xl">Projects</h1>
+      <div class="h-[1px] w-full bg-white ml-4"></div>
+    </div>
+    <div
+      class="grid justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-4"
+    >
+      {
+        projects.map((project) => (
+          <Card
+            title={project.title}
+            img={project.img}
+            desc={project.dec}
+            tecnos={project.tecnos}
+            link={project.link}
+          />
+        ))
+      }
+    </div>
+  </div>
+</section>
